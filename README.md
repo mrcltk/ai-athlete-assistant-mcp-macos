@@ -1,4 +1,4 @@
-# 🏃‍♂️ AI Athlete Assistant: Garmin, Strava & Google Calendar MCP Integration
+# 🏃‍♂️ AI Athlete Assistant: Garmin, Strava & Google Calendar MCP Integration (macOS)
 
 Turn Claude Desktop into a personalized, data-driven sports and recovery coach. This repository provides the complete Model Context Protocol (MCP) configuration to bridge your **Garmin Connect** (biometrics, sleep, HRV), **Strava** (activities, load), and **Google Calendar** (schedule, availability) directly into Claude.
 
@@ -23,7 +23,7 @@ Open `claude_desktop_config.json` (create it if it doesn't exist) and merge the 
 
 ### 3. API & Credentials Authorization
 - **Garmin:** Replace with your actual Garmin Connect credentials.
-- **Strava:** Fetch your `CLIENT_ID`, `CLIENT_SECRET`, and `REFRESH_TOKEN` from the [Strava API Settings](https://strava.com).
+- **Strava:** Fetch your `CLIENT_ID`, `CLIENT_SECRET`, and `REFRESH_TOKEN` from the Strava.
 - **Google Calendar:** No tokens needed. Upon restarting Claude, a secure OAuth browser window will automatically trigger for Google sign-in.
 
 ---
